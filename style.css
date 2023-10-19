@@ -1,0 +1,134 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  background: linear-gradient(to bottom right, #54BAB9, 60%, #3f9c9b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 4rem;
+}
+
+.header {
+  width: 80vw;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FBF8F1;
+  padding: 4rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.header__logo {
+  font-size: 200%;
+  border-radius: 50%;
+  padding: 2rem;
+  color: #FBF8F1;
+  background: linear-gradient(to bottom right, #54BAB9, 60%, #3f9c9b);
+  border: 0.2rem dashed transparent;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo:hover {
+  color: #54BAB9;
+  border: 0.2rem dashed #54BAB9;
+  background: transparent;
+  transform: rotate(360deg);
+  transition: 0.6s all;
+  transition-timing-function: linear;
+}
+.header__rightWrapper {
+  display: flex;
+  gap: 4rem;
+}
+.header__avatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+.header__avatar:hover {
+  transform: rotate(360deg);
+  transition: 0.8s all;
+  transition-timing-function: linear;
+}
+.header__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header__toggle {
+  width: 10rem;
+  height: 10rem;
+  border: 0.1rem solid red;
+}
+
+.showcase {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  gap: 4rem;
+  background: #FBF8F1;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: inset 0 -1rem 5rem 0 rgba(84, 186, 185, 0.67);
+}
+.showcase__input {
+  font-size: 100%;
+  padding: 2rem;
+  padding-left: 0;
+  width: 50%;
+  border: none;
+  background: none;
+  border-bottom: 0.2rem solid #54BAB9;
+}
+.showcase__input:focus {
+  outline: none;
+}
+.showcase__section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.showcase__font {
+  font-size: 120%;
+  font-weight: 400;
+}
+.showcase__output {
+  font-size: 250%;
+}
+.showcase__output--cursive {
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+}
+.showcase__output--sansSerif {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.showcase__output--serif {
+  font-weight: 400;
+  font-family: "Rosarivo", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
